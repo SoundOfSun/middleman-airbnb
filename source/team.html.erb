@@ -1,0 +1,23 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="about">
+  <div class="about-content text-center">
+    <h1>This team rocks !</h1>
+    <ul class="list-inline text-center">
+      <% ["SoundOfSun", "tsrice29"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h2><%= gh_username.capitalize %></h2>
+          <p>
+            <% link_to "http://github.com/gh_username" do %>
+              <i class="fa fa-github"></i>
+              <%= gh_username %>
+            <% end %>
+          </p>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

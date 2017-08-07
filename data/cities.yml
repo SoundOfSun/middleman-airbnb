@@ -1,0 +1,19 @@
+# cities.yml
+berlin:
+  name: Le Wagon Berlin
+  address: Rudi-Dutschke-Straße 26, 10969 Berlin, Allemagne
+paris:
+  name: Le Wagon Paris
+  address: 16 Villa Gaudelet, 75011 Paris, France
+london:
+  name: Le Wagon London
+  address: 14-22 Elder St, London E1 6BT, England
+barcelona:
+  name: Le Wagon Barcelona
+  address: Carrer d'En Grassot, 101, 08025 Barcelona, Espagne
+tokyo:
+  name: Le Wagon Tokyo
+  address: 2 Chome-11-3 Meguro, Tokyo 153-0063, Japon
+copenhagen:
+  name: Le Wagon Copenhagen
+  address: Ahornsgade 15, 2200 KBH N, Pays-Bas
